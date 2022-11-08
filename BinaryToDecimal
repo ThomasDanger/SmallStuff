@@ -1,0 +1,8 @@
+//Recursive function that takes a string representation of an unsigned binary integer and returns an integer
+
+public static int bin2Dec(String binary){
+    if(binary.length() == 0)
+        return 0;
+    else
+        return Integer.parseInt("" + binary.charAt(0)) * (int)Math.pow(2, binary.length() - 1) + bin2Dec(binary.substring(1));
+}
