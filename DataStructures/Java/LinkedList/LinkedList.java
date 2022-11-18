@@ -2,14 +2,9 @@ package com.mycompany.main;
 
 public class LinkedList<G extends Comparable> {
     private Node<G> head;
-    private int size;
     
     public LinkedList(){
         head = null;
-    }
-    
-    public int size(){
-        return size;
     }
     
     public void add(Node<G> n){
@@ -23,7 +18,6 @@ public class LinkedList<G extends Comparable> {
             }
             cur.setNext(n);
         }
-        size++;
     }
     
     public void add(G data){
@@ -32,7 +26,6 @@ public class LinkedList<G extends Comparable> {
     
     public void insert(int index, Node<G> n){
         if(index == 0){
-            size++;
             n.setNext(head);
             head = n;
         }
@@ -44,7 +37,6 @@ public class LinkedList<G extends Comparable> {
                 i++;
             }
             if(cur!=null){
-                size++;
                 n.setNext(cur.getNext());
                 cur.setNext(n);
             }
@@ -75,7 +67,6 @@ public class LinkedList<G extends Comparable> {
         Node<G> temp = head;
         if(head != null){
             head = head.getNext();
-            size--;
         }
         return temp;
     }
