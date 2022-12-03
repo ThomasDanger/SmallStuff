@@ -14,7 +14,7 @@ may be between 5 minutes and 2 hours, but are all alike in that I thought they  
 some sort of ability relavent to computer science, and they were too small to warrant
 putting them into their own repository or project page.
 
-### Important
+### Important:
 This folder acts solely as a portfolio. I DO NOT condone academic dishonesty. 
 DO NOT copy any code for a High School or University project. If you want to use my code 
 as inspiration go for it, but DO NOT copy and paste my code if you are a student.
