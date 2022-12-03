@@ -1,4 +1,4 @@
-# IsEven() and IsOdd()
+# Bit-Wise Study: A study of bit-wise operations
 
 `Bit-Wise Operations To Make The World a Bit Better`
 
