@@ -1,0 +1,8 @@
+# IsOdd() and IsEven()
+
+`Bit-Wise Operations for a Better Tomorrow`
+
+These functions use bitwise operations instead of modulus to check for whether an integer is even or odd for maximum efficiency. 
+To my knowledge, this should be the fastest way to determine whether a number is even or odd. I got this idea while working on my 
+Tic-Tac-Toe in Assembly program and thought it was pretty cool. I would imagine I am nowhere near the first to have thought of this,
+but I thought it was worth sharing either way.
