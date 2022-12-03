@@ -2,7 +2,7 @@
 
 `Thomas Conner, student at the University of Texas at Dallas, Richardson, TX`
 
-## DESCRIPTION
+### DESCRIPTION
 This is a repository for small assignments and projects I've made that don't 
 warrant an entire repository for each project. Some of these programs may be functions, 
 classes, or entire projects. The contents of this folder are often very similar to the type 
