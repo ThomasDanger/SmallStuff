@@ -1,4 +1,4 @@
-# IsOdd() and IsEven()
+# IsEven() and IsOdd()
 
 `Bit-Wise Operations for a Better Tomorrow`
 
