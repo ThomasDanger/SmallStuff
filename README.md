@@ -1,6 +1,6 @@
 # SmallStuff
 
-`It's Not About the Size of the Program...`
+`It's Not the Size of the Program that Matters...`
 
 ### Author
 Thomas Conner, student at the University of Texas at Dallas, Richardson, TX
