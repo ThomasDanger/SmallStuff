@@ -1,6 +1,6 @@
 # SmallStuff
 
-`It's Not the Size of the Program that Matters...`
+`It's Not the Size of the Program that Matters, it's How it's Implemented`
 
 ### Author
 Thomas Conner, student at the University of Texas at Dallas, Richardson, TX
