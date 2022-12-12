@@ -8,13 +8,12 @@
 public void printBF(){
     Queue<Node<G>> q = new LinkedList();
     q.add(root);
-    while(!q.isEmpty()){
+    while(!q.isEmpty() && root!=null){
         Node<G> cur= q.remove();
-        if(cur!=null)
-            System.out.println(cur);
-        if(cur!=null&&cur.getLeft()!=null)
+        System.out.println(cur);
+        if(cur.getLeft()!=null)
             q.add(cur.getLeft());
-        if(cur!=null&&cur.getRight()!=null)
+        if(cur.getRight()!=null)
             q.add(cur.getRight());
     }
 }
