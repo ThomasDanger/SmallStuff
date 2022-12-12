@@ -6,15 +6,15 @@
 //This was incredibly easy.
 
 public void printBF(){
-        Queue<Node<G>> q = new LinkedList();
-        q.add(root);
-        while(!q.isEmpty()){
-            Node<G> cur= q.remove();
-            if(cur!=null)
-                System.out.println(cur);
-            if(cur!=null&&cur.getLeft()!=null)
-                q.add(cur.getLeft());
-            if(cur!=null&&cur.getRight()!=null)
-                q.add(cur.getRight());
-        }
+    Queue<Node<G>> q = new LinkedList();
+    q.add(root);
+    while(!q.isEmpty()){
+        Node<G> cur= q.remove();
+        if(cur!=null)
+            System.out.println(cur);
+        if(cur!=null&&cur.getLeft()!=null)
+            q.add(cur.getLeft());
+        if(cur!=null&&cur.getRight()!=null)
+            q.add(cur.getRight());
     }
+}
